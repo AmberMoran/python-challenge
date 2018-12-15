@@ -1,8 +1,15 @@
 import csv
-from collections import Counter
-with open ("03-Python_Homework_PyBank_Resources_budget_data.csv","r") as file: 
-    reader = csv.reader(file)
-    
 
+datelist[]
+profitlosslist[]
+total = []
+    
+with open ("data.csv","r") as file: 
+    reader = csv.reader(file)  
+    
+    header = next(reader)
+            
     for row in reader:
-      Counter("date"["total months"])
+        profitlossList.append(float(row[1]))
+        dateList.append(1)
+        total.append(row)
